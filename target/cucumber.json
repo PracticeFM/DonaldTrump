@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify User Can log in",
+        "description": "",
+        "id": "log-in;verify-user-can-log-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5176527800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "LaptopDealsStefDefina.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2345312201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Sing In button",
+            "match": {
+              "location": "LogInStefDeff.click_on_Sing_In_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6641339399,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Sign In Link",
+            "match": {
+              "location": "LogInStefDeff.click_on_Sign_In_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1021540500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter User Email",
+            "match": {
+              "location": "LogInStefDeff.enter_User_Email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 365993800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter User Password",
+            "match": {
+              "location": "LogInStefDeff.enter_User_Password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 624106100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Sing In",
+            "match": {
+              "location": "LogInStefDeff.click_on_Sing_In()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5986508600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify User Can log in",
+            "match": {
+              "location": "LogInStefDeff.verify_User_Can_log_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Bcamp"
+          }
+        ]
+      }
+    ],
+    "name": "Log In",
+    "description": "",
+    "id": "log-in",
+    "keyword": "Feature",
+    "uri": "LogInDell.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify pc laptop deals",
+        "description": "",
+        "id": "pc-laptop-deals;verify-pc-laptop-deals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3777467200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "LaptopDealsStefDefina.open_Application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17793193100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on PC deals",
+            "match": {
+              "location": "PCDealsSteffDeff.click_on_PC_deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3023970801,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on laptop deals link",
+            "match": {
+              "location": "PCDealsSteffDeff.click_on_laptop_deals_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 863515201,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify Laptop Deals Display",
+            "match": {
+              "location": "PCDealsSteffDeff.verify_Laptop_Deals_Display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Bcamp"
+          }
+        ]
+      }
+    ],
+    "name": "PC Laptop Deals",
+    "description": "",
+    "id": "pc-laptop-deals",
+    "keyword": "Feature",
+    "uri": "PCDeals.feature"
+  }
+]
